@@ -35,14 +35,15 @@ public class Lesson11 {
 //        JapaneseDate jDate = JapaneseDate.from(myDate);
 //        System.out.println("Japanese date: " + jDate);
 
-        LocalDateTime today = LocalDateTime.now();
-        System.out.println("Today's date time (no formatting: " + today);
-        
-        String sdate = today.format(DateTimeFormatter.ISO_DATE_TIME);
-        System.out.println("Date in ISO_DATE_TIME format: " + sdate);
-        
-        String fdate = today.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM));
-        System.out.println("Formatted with MEDIUM FormatStyle: " + fdate);
+        //FORMATTING DATES
+//        LocalDateTime today = LocalDateTime.now();
+//        System.out.println("Today's date time (no formatting: " + today);
+//        
+//        String sdate = today.format(DateTimeFormatter.ISO_DATE_TIME);
+//        System.out.println("Date in ISO_DATE_TIME format: " + sdate);
+//        
+//        String fdate = today.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM));
+//        System.out.println("Formatted with MEDIUM FormatStyle: " + fdate);
                 
     }
 }
