@@ -8,7 +8,14 @@ public class ShoppingCart {
 
         // Parse the args array to populate name and age.  
 	// Print an error message if fewer than 2 args are passed in.
-        
+        if (args.length < 2) {
+            System.out.println("Two arguments required.");
+        }
+        else {
+            name = args[0];
+            age = Integer.parseInt(args[1]);
+            System.out.println("Name = " + name + "\nAge = " + age);
+        }
         
     }
 }
