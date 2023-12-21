@@ -74,12 +74,38 @@ public class Lesson11 {
             }
         
         */
-        System.out.println("/*");
-        int counter = 0;
-        while (counter < 3) {
-            System.out.println(" *");
-            counter++;
+//        System.out.println("/*");
+//        int counter = 0;
+//        while (counter < 3) {
+//            System.out.println(" *");
+//            counter++;
+//        }
+//        System.out.println("*/");
+
+    //FOR LOOP 
+    
+    /*
+    SYNTAX: 
+      » for (<type> counter = n; <boolean_expression>; <counter_increment>) {
+            code_block;
         }
-        System.out.println("*/");
+    */
+    
+    //DO/WHILE LOOP 
+    
+    /*
+    SYNTAX: 
+      » do {
+            code_block;
+        }
+        while (boolean_expression); //; is mandatory
+    */
+    
+    //KEYWORDS
+     
+    /*
+    break; --breaks out of the loop
+    continue; --causes the loop to skip the current iteration and go to the next
+    */
     }
 }
