@@ -3,6 +3,7 @@ package ex11_1_exercise;
 // import statements here:
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 
 
@@ -15,7 +16,7 @@ public class ShoppingCart {
          orderDate = LocalDateTime.now();
 
 	// Format orderDate using ISO_LOCAL_DATE; Print it.
-        
+        System.out.println("Order Date: " + (orderDate.format(DateTimeFormatter.ISO_DATE)));
 
     }
 }
