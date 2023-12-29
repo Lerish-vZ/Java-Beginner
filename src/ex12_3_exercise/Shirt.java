@@ -4,6 +4,7 @@ public class Shirt extends Item{
     private char size;
     private char colorCode;
     
+    
     public Shirt(double price, char size, char colorCode){
         super ("Shirt", price);
         this.size = size;
@@ -16,6 +17,10 @@ public class Shirt extends Item{
         System.out.println("\tColor Code: "+ colorCode);
     } 
     
+    public String getColor(colorCode){
+        String color = "";
+        switch 
+    }
     // Code a public getColor method that converts the colorCode to a the color name
        // Use a switch statement.  Return the color name. 
 
