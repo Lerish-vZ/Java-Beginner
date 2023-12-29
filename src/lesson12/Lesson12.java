@@ -37,5 +37,17 @@ public class Lesson12 {
         /*
         
         */
+        
+        
+        //ABSTRACT CLASSES
+        
+        /* 
+        use the <abstract> keyword to create a special class that:
+            » Cannot be instantiated
+            » May contain concrete methods 
+            » May contain abstract methods that must be implemented later by any nonabstract subclasses
+        
+        All methods within an abstract class must be used in the class that extends it.
+        */
     }
 }
