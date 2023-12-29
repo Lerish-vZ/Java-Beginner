@@ -18,8 +18,13 @@ public class ShoppingCart {
         names.add(0, "Pepper");
         
         System.out.println(names);
+
 	// Check for the existence of a specific String element.  
         //   If it exists, remove it.
         
+        if(names.contains("Susan")){
+            names.remove("Susan");
+        }
+      System.out.println(names);  
     }
 }
