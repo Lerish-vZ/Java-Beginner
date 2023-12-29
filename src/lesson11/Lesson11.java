@@ -149,6 +149,15 @@ public class Lesson11 {
             System.out.println();
         } */
   
+  //ARRAYLIST
   
+  /* 
+  Option to designate the object type it contains:
+    ArrayList <String> states = new ArrayList();
+  
+  Call methods on an ArrayList or its elements:
+    states.size(); //size of list
+    states.get(49).length(); //length of the 49th element 
+  */
     }
 }
