@@ -21,8 +21,14 @@ public class Lesson12 {
         The keyword *extends* creates the inheritance relationship
         super refers to the supreclass
         The subclass's own attributes gets set after invocation of the superclass constructor
-        
         */
-
+        
+        
+        //OVERRIDING METHODS 
+        
+        /* 
+        Overriding: A subclass implements a method that already has an 
+                    implementation in the superclass.
+        */
     }
 }
