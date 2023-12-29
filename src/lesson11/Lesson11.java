@@ -107,5 +107,48 @@ public class Lesson11 {
     break; --breaks out of the loop
     continue; --causes the loop to skip the current iteration and go to the next
     */
+    
+    //NESTED FOR LOOP 
+    /* int height = 4, width = 10;
+     
+     for(int row = 0; row < height; row++){ //produces the rows. Loops 4 times
+         for (int col = 0; col < width; col ++) { //produces columns for a given row. Loops 10 times
+             System.out.print("@"); //make note it's print not println
+         }
+         System.out.println(); 
+     } */
+
+    
+    //NESTED WHILE LOOP 
+    
+  /*  String name = "Lenny";
+    String guess = "";
+    int attempts = 0;
+    
+    while ( !guess.equalsIgnoreCase(name)) {
+        guess = "";
+        while (guess.length() < name.length()) {
+            char asciiChar = (char) (Math.random() * 26 + 97);
+            guess += asciiChar;
+        }
+        attempts++;
+    }
+        System.out.println(name + " found after " + attempts + " tries!"); */
+  
+    
+    //PROCESSING A TWO-DIMENSIONAL ARRAY
+    
+  /*  int sales[][] = new int [3][4];
+    //initArray(sales); //initialize the array
+        System.out.println("Yearly sales by quarter beginning 2010:");
+        
+        for (int i = 0; i < sales.length; i++) {
+            for (int j = 0; j < sales[i].length; j++) {
+                System.out.println("\tQ" + (j + 1) + " " + sales[i][j]);
+            }
+            System.out.println();
+        } */
+  
+  
     }
 }
