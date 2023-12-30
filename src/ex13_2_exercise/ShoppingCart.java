@@ -22,6 +22,7 @@ public class ShoppingCart {
     public void removeItemFromCart(String desc){
         // remove all Trousers from the items list, then print out the list
         items.removeIf(i -> i.getDesc().equals(desc));
+        System.out.println(items);
     }
     
 }
