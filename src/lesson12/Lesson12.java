@@ -35,7 +35,14 @@ public class Lesson12 {
         //POLYMORPHISM
         
         /*
-        
+        You can use the superclass as the reference, you do not have to use the class as a reference.
+        ex. 
+            Shirt myShirt = new Shirt(); --> uses the class <Shirt> as reference type for the Shirt object.
+            
+            Clothing garment1 = new Shirt();|
+            Clothing garment2 = new Trousers();--> uses the superclass as reference 
+                                                » Shirt is a (type of) Clothing.
+                                                » Trousers is a (type of) Clothing.
         */
         
         
