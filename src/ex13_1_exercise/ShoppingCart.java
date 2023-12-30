@@ -1,5 +1,7 @@
 package ex13_1_exercise;
 
+import java.util.*;
+
 
 public class ShoppingCart {
     public static void main(String[] args){
@@ -10,8 +12,18 @@ public class ShoppingCart {
         //   upper case (use toUpperCase() method of String class) 
         // Print all other days in lower case 
         // Print out the ArrayList  
-
-
+        
+        ArrayList <String> myArrayList = new ArrayList(Arrays.asList(days));
+        
+        
+        for(String day : days) {
+            if (day == "sunday"){
+                System.out.println(day.toUpperCase());
+            } else {
+                System.out.println(day);
+            }
+        }
+        System.out.println(myArrayList);
 
     }    
 }
