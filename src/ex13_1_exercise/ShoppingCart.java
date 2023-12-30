@@ -17,7 +17,7 @@ public class ShoppingCart {
         
         
         for(String day : days) {
-            if (day == "sunday"){
+            if (day.equals("sunday")){
                 System.out.println(day.toUpperCase());
             } else {
                 System.out.println(day);
