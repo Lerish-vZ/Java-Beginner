@@ -10,6 +10,10 @@ package lesson13;
  */
 public class Lesson13 {
     public static void main(String[] args) {
+        //POLYMORPHISM IN THE JDK FOUNDATION CLASSES
+        /* 
+        All classes that do not explicitly extend another class automatically extend Object.
         
+        */
     }     
 }
