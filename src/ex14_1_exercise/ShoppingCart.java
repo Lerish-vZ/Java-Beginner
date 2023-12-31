@@ -7,8 +7,11 @@ public class ShoppingCart {
         int addResult = calc.add(43, 79);
         System.out.println("Add Result: " + addResult);
         
-        // Add exception handling to catch ArithmeticException
+        try{// Add exception handling to catch ArithmeticException
         double divResult = calc.divide(15, 0);        
         System.out.println("Division Result: " + divResult);
+        } catch(ArithmeticException ae) {
+            System.out.println(ae);
+        }
     }
 }
