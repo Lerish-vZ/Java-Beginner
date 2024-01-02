@@ -16,7 +16,7 @@ public class ShoppingCart {
          orderDate = LocalDateTime.now();
 
 	// Format orderDate using ISO_LOCAL_DATE; Print it.
-        System.out.println("Order Date: " + (orderDate.format(DateTimeFormatter.ISO_DATE_TIME)));
+        System.out.println("Order Date: " + (orderDate.format(DateTimeFormatter.ISO_DATE)));
 
     }
 }

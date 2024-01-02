@@ -11,7 +11,7 @@ public class ShoppingCart {
         item1.displayItem();
         
         // Call the 4-arg setItemFields method, checking the return value.  
-        if (item1.setItemFields("Polo Shirt", 10, 20.99, 'B') < 0) {
+        if (item1.setItemFields("Polo Shirt", 10, 20.99, ' ') < 0) {
             System.out.println("Invalid Color");
         } 
         else {

@@ -5,7 +5,7 @@ public class ShoppingCart {
     public static void main(String[] args){
         Item item1 = new Item();
         
-        if (item1.setColor('B')){
+        if (item1.setColor(' ')){
             System.out.println(item1.color);
         }
         else {
@@ -20,4 +20,4 @@ public class ShoppingCart {
        
         
     }
-}
+} 

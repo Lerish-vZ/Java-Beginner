@@ -35,10 +35,10 @@ public class Order {
         else if (custType == 'P' && total > 900) {
             discount = 0.07 * 100;
         }
-        else if (custType == 'C' && total > 500) {
+        else if (custType == 'C' && total < 500) {
             discount = 0.08 * 100;
         } 
-        else if (custType == 'C' && !(total > 500)) {
+        else if (custType == 'C' && !(total < 500)) {
             discount = 0.05 * 100;
         }
         else {

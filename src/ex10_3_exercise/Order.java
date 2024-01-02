@@ -34,7 +34,10 @@ public class Order {
                 discount = (total > 900) ? 7.00 : 0.0;
                 break;
             case CORP:
-                discount = (total > 500) ? 8.00 : 5.00;
+                discount = (total < 500) ? 8.00 : 5.00;
+                break;
+            default: 
+                discount = 0;
                         
         }
         
